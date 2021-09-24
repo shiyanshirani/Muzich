@@ -8,6 +8,10 @@ from .serializers import *
 # Create your views here.
 
 
+def index(request):
+    return render(request, 'frontend/index.html')
+
+
 class RoomView(generics.ListAPIView):
     queryset = Room.objects.all()
     serializer_class = RoomSerializer

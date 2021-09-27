@@ -96,7 +96,7 @@ export default class CreateRoomPage extends Component {
                             <div align="center">
                                 Votes required to skip songs.
                             </div>
-                        {/* </FormHelperText> */}
+                        </FormHelperText>
                     </FormControl>
                 </Grid>
 

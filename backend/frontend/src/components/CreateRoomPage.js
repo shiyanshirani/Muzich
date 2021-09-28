@@ -79,7 +79,7 @@ export default class CreateRoomPage extends Component {
                             />
                         </RadioGroup>
 
-                    </FormControl>
+                    {/* </FormControl> */}
                 </Grid>
 
 

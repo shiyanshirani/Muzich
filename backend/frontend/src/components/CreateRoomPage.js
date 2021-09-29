@@ -79,11 +79,11 @@ export default class CreateRoomPage extends Component {
                             />
                         </RadioGroup>
 
-                    {/* </FormControl> */}
+                    </FormControl>
                 </Grid>
 
 
-                <Grid item xs={12} align="center">
+                {/* <Grid item xs={12} align="center"> */}
                     <FormControl>
                         <TextField 
                         required={true}

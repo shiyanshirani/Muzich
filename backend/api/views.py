@@ -73,5 +73,4 @@ class CreateRoomView(APIView):
                 {"Bad Request": "Invalid Data"}, status=status.HTTP_400_BAD_REQUEST
             )
 
-This is a commen
 
